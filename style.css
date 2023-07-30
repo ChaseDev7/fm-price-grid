@@ -1,0 +1,168 @@
+.attribution {
+  font-size: 11px; 
+  text-align: center;
+  background-color: hsl(179, 62%, 43%);
+  color: white;
+  padding: 7px;
+  border-radius: 30px;
+  margin-top: 20px;
+}
+
+.attribution a {
+  color: hsl(71, 73%, 54%);
+}
+
+body {
+  background-color: hsl(204, 43%, 93%);
+  font-family: 'Karla', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 12px;
+}
+
+.container {
+  margin-top: 20px;
+  width: 500px;
+}
+
+ul {
+  margin: 20px 0 0 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+  color: hsl(196, 84%, 81%);
+  font-weight: 700;
+  line-height: 20px;
+}
+
+h2 {
+  color: hsl(179, 62%, 43%);
+  margin: 0;
+}
+
+h3 {
+  margin: 0;
+}
+
+.guarantee {
+  color: hsl(71, 73%, 54%);
+  margin: 10px 0;
+}
+
+p {
+  color: hsl(218, 22%, 67%);
+  margin: 0;
+  line-height: 22px;
+}
+
+.main-container {
+  background-color: white;
+  border-radius: 10px 10px 0 0;
+  padding: 30px;
+  box-shadow: 0px 0px 10px 0.3px rgb(203, 203, 203);
+}
+
+.details-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.pricing, .details {
+  width: 50%;
+  color: white;
+  padding: 30px;
+}
+
+.monthly-price {
+  display: flex;
+  flex-direction: row;
+}
+
+.dollars {
+  font-size: 20px;
+  font-weight: 700;
+  padding: 5px;
+  margin: 5px 0;
+}
+
+.month {
+  display: flex;
+  align-items: center;
+  color: hsl(196, 84%, 81%);
+}
+
+button {
+  background-color: hsl(71, 73%, 54%);
+  color: white;
+  padding: 10px 55px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 15px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: hsl(71, 70%, 51%);
+  box-shadow: 0px 2px 5px 0.5px rgb(115, 113, 113);
+}
+
+button:active {
+  background-color: hsl(71, 75%, 45%);
+}
+
+.pricing {
+  background-color: hsl(179, 62%, 43%);
+  border-radius: 0 0 0 10px;
+  box-shadow: -5px 2px 10px 0.3px rgb(203, 203, 203);
+}
+
+.details {
+  background-color: hsl(196, 70%, 59%);
+  border-radius: 0 0 10px 0;
+  box-shadow: 5px 2px 10px 0.3px rgb(203, 203, 203);
+}
+
+@media (max-width: 500px) {
+  .container {
+    margin-top: 20px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .main-container {
+    background-color: white;
+    border-radius: 10px 10px 0 0;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 0.3px rgb(203, 203, 203);
+    width: 60%;
+  }
+
+  .details-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .pricing {
+    background-color: hsl(179, 62%, 43%);
+    border-radius: 0 0 0 0;
+    box-shadow: 2px 0px 10px 0.3px rgb(203, 203, 203);
+    width: 60%;
+    padding: 20px;
+  }
+
+  .details {
+    background-color: hsl(196, 70%, 59%);
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0px 2px 10px 0.3px rgb(203, 203, 203);
+    width: 60%;
+    padding: 20px;
+  }
+}
